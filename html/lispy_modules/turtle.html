@@ -1,0 +1,398 @@
+<html>
+    <head>
+        <title>Turtle</title>
+        <meta charset="UTF8"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="w3-sidebar w3-bar-block" style="width:20%">
+            <a href="#turtle:forward" class="w3-bar-item w3-button">turtle:forward</a>
+            <a href="#turtle:back" class="w3-bar-item w3-button">turtle:back</a>
+            <a href="#turtle:right" class="w3-bar-item w3-button">turtle:right</a>
+            <a href="#turtle:left" class="w3-bar-item w3-button">turtle:left</a>
+            <a href="#turtle:setpos" class="w3-bar-item w3-button">turtle:setpos</a>
+            <a href="#turtle:setx" class="w3-bar-item w3-button">turtle:setx</a>
+            <a href="#turtle:sety" class="w3-bar-item w3-button">turtle:sety</a>
+            <a href="#turtle:setangle" class="w3-bar-item w3-button">turtle:setangle</a>
+            <a href="#turtle:home" class="w3-bar-item w3-button">turtle:home</a>
+            <a href="#turtle:circle" class="w3-bar-item w3-button">turtle:circle</a>
+            <a href="#turtle:dot" class="w3-bar-item w3-button">turtle:dot</a>
+            <a href="#turtle:undo" class="w3-bar-item w3-button">turtle:undo</a>
+            <a href="#turtle:setspeed" class="w3-bar-item w3-button">turtle:setspeed</a>
+            <a href="#turtle:speed" class="w3-bar-item w3-button">turtle:speed</a>
+            <a href="#turtle:pos" class="w3-bar-item w3-button">turtle:pos</a>
+            <a href="#turtle:towards" class="w3-bar-item w3-button">turtle:towards</a>
+            <a href="#turtle:x" class="w3-bar-item w3-button">turtle:x</a>
+            <a href="#turtle:y" class="w3-bar-item w3-button">turtle:y</a>
+            <a href="#turtle:angle" class="w3-bar-item w3-button">turtle:angle</a>
+            <a href="#turtle:down" class="w3-bar-item w3-button">turtle:down</a>
+            <a href="#turtle:up" class="w3-bar-item w3-button">turtle:up</a>
+            <a href="#turtle:setwidth" class="w3-bar-item w3-button">turtle:setwidth</a>
+            <a href="#turtle:width" class="w3-bar-item w3-button">turtle:width</a>
+            <a href="#turtle:isdown" class="w3-bar-item w3-button">turtle:isdown</a>
+            <a href="#turtle:setpencolor" class="w3-bar-item w3-button">turtle:setpencolor</a>
+            <a href="#turtle:pencolor" class="w3-bar-item w3-button">turtle:pencolor</a>
+            <a href="#turtle:setfillcolor" class="w3-bar-item w3-button">turtle:setfillcolor</a>
+            <a href="#turtle:fillcolor" class="w3-bar-item w3-button">turtle:fillcolor</a>
+            <a href="#turtle:isfilling" class="w3-bar-item w3-button">turtle:isfilling</a>
+            <a href="#turtle:beginfill" class="w3-bar-item w3-button">turtle:beginfill</a>
+            <a href="#turtle:endfill" class="w3-bar-item w3-button">turtle:endfill</a>
+            <a href="#turtle:reset" class="w3-bar-item w3-button">turtle:reset</a>
+            <a href="#turtle:clear" class="w3-bar-item w3-button">turtle:clear</a>
+            <a href="#turtle:hide" class="w3-bar-item w3-button">turtle:hide</a>
+            <a href="#turtle:show" class="w3-bar-item w3-button">turtle:show</a>
+            <a href="#turtle:isshowed" class="w3-bar-item w3-button">turtle:isshowed</a>
+            <a href="#turtle:end" class="w3-bar-item w3-button">turtle:end</a>
+        </div>
+        <div style="margin-left: 20%;">
+            <h1 class="w3-center">Turtle</h1>
+            <h4 class="w3-center">(import turtle)</h4>
+            <div class="w3-card-2 w3-margin" id="turtle:forward">
+    <header class="w3-container w3-blue">
+        <h3>turtle:forward</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Make turtle move forward</h5>
+        Parameters :<br/>1: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:back">
+    <header class="w3-container w3-blue">
+        <h3>turtle:back</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Make turtle move back</h5>
+        Parameters :<br/>1: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:right">
+    <header class="w3-container w3-blue">
+        <h3>turtle:right</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Make turtle turn right</h5>
+        Parameters :<br/>1: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:left">
+    <header class="w3-container w3-blue">
+        <h3>turtle:left</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Make turtle turn left</h5>
+        Parameters :<br/>1: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:setpos">
+    <header class="w3-container w3-blue">
+        <h3>turtle:setpos</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Set position of turtle</h5>
+        Parameters :<br/>1: List
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:setx">
+    <header class="w3-container w3-blue">
+        <h3>turtle:setx</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Set x position of turtle</h5>
+        Parameters :<br/>1: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:sety">
+    <header class="w3-container w3-blue">
+        <h3>turtle:sety</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Set y position of turtle</h5>
+        Parameters :<br/>1: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:setangle">
+    <header class="w3-container w3-blue">
+        <h3>turtle:setangle</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Set angle of turtle</h5>
+        Parameters :<br/>1: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:home">
+    <header class="w3-container w3-blue">
+        <h3>turtle:home</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Teleport turtle to home</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:circle">
+    <header class="w3-container w3-blue">
+        <h3>turtle:circle</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Make circle from turtle</h5>
+        Parameters :<br/>1: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:dot">
+    <header class="w3-container w3-blue">
+        <h3>turtle:dot</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Make colored dot from turtle</h5>
+        Parameters :<br/>1: Int<br/>
+2: Int<br/>
+3: Int<br/>
+4: Int
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:undo">
+    <header class="w3-container w3-blue">
+        <h3>turtle:undo</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Undo action</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:setspeed">
+    <header class="w3-container w3-blue">
+        <h3>turtle:setspeed</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting turtle speed</h5>
+        Parameters :<br/>1: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:speed">
+    <header class="w3-container w3-blue">
+        <h3>turtle:speed</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting turtle speed</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:pos">
+    <header class="w3-container w3-blue">
+        <h3>turtle:pos</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting turtle position</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:towards">
+    <header class="w3-container w3-blue">
+        <h3>turtle:towards</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting angle to go to argument position</h5>
+        Parameters :<br/>1: Int, Float<br/>
+2: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:x">
+    <header class="w3-container w3-blue">
+        <h3>turtle:x</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting turtle x position</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:y">
+    <header class="w3-container w3-blue">
+        <h3>turtle:y</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting turtle y position</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:angle">
+    <header class="w3-container w3-blue">
+        <h3>turtle:angle</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting turtle angle</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:down">
+    <header class="w3-container w3-blue">
+        <h3>turtle:down</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Start drawing when move</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:up">
+    <header class="w3-container w3-blue">
+        <h3>turtle:up</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Stop drawing when move</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:setwidth">
+    <header class="w3-container w3-blue">
+        <h3>turtle:setwidth</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting line width to turtle</h5>
+        Parameters :<br/>1: Int
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:width">
+    <header class="w3-container w3-blue">
+        <h3>turtle:width</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting line width of turtle</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:isdown">
+    <header class="w3-container w3-blue">
+        <h3>turtle:isdown</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if turtle is drawing</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:setpencolor">
+    <header class="w3-container w3-blue">
+        <h3>turtle:setpencolor</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting turtle color pen</h5>
+        Parameters :<br/>1: Int, Float<br/>
+2: Int, Float<br/>
+3: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:pencolor">
+    <header class="w3-container w3-blue">
+        <h3>turtle:pencolor</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting turtle color pen</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:setfillcolor">
+    <header class="w3-container w3-blue">
+        <h3>turtle:setfillcolor</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting turtle color fill</h5>
+        Parameters :<br/>1: Int, Float<br/>
+2: Int, Float<br/>
+3: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:fillcolor">
+    <header class="w3-container w3-blue">
+        <h3>turtle:fillcolor</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting turtle color fill</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:isfilling">
+    <header class="w3-container w3-blue">
+        <h3>turtle:isfilling</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if turtle is filling</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:beginfill">
+    <header class="w3-container w3-blue">
+        <h3>turtle:beginfill</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Start filling with turtle</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:endfill">
+    <header class="w3-container w3-blue">
+        <h3>turtle:endfill</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Stop filling with turtle</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:reset">
+    <header class="w3-container w3-blue">
+        <h3>turtle:reset</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Reset turtle</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:clear">
+    <header class="w3-container w3-blue">
+        <h3>turtle:clear</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Clear turtle</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:hide">
+    <header class="w3-container w3-blue">
+        <h3>turtle:hide</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Hide turtle</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:show">
+    <header class="w3-container w3-blue">
+        <h3>turtle:show</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Show turtle</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:isshowed">
+    <header class="w3-container w3-blue">
+        <h3>turtle:isshowed</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if turtle is showed</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="turtle:end">
+    <header class="w3-container w3-blue">
+        <h3>turtle:end</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Stop turtle</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,339 @@
+<html>
+    <head>
+        <title>Core</title>
+        <meta charset="UTF8"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="w3-sidebar w3-bar-block" style="width:20%">
+            <a href="#input" class="w3-bar-item w3-button">input</a>
+            <a href="#print" class="w3-bar-item w3-button">print</a>
+            <a href="#+" class="w3-bar-item w3-button">+</a>
+            <a href="#-" class="w3-bar-item w3-button">-</a>
+            <a href="#*" class="w3-bar-item w3-button">*</a>
+            <a href="#/" class="w3-bar-item w3-button">/</a>
+            <a href="#//" class="w3-bar-item w3-button">//</a>
+            <a href="#%" class="w3-bar-item w3-button">%</a>
+            <a href="#>" class="w3-bar-item w3-button">></a>
+            <a href="#<" class="w3-bar-item w3-button"><</a>
+            <a href="#>=" class="w3-bar-item w3-button">>=</a>
+            <a href="#<=" class="w3-bar-item w3-button"><=</a>
+            <a href="#=" class="w3-bar-item w3-button">=</a>
+            <a href="#exit" class="w3-bar-item w3-button">exit</a>
+            <a href="#int" class="w3-bar-item w3-button">int</a>
+            <a href="#float" class="w3-bar-item w3-button">float</a>
+            <a href="#str" class="w3-bar-item w3-button">str</a>
+            <a href="#list" class="w3-bar-item w3-button">list</a>
+            <a href="#dict" class="w3-bar-item w3-button">dict</a>
+            <a href="#not" class="w3-bar-item w3-button">not</a>
+            <a href="#type" class="w3-bar-item w3-button">type</a>
+            <a href="#assert" class="w3-bar-item w3-button">assert</a>
+            <a href="#if" class="w3-bar-item w3-button">if</a>
+            <a href="#while" class="w3-bar-item w3-button">while</a>
+            <a href="#for" class="w3-bar-item w3-button">for</a>
+            <a href="#def" class="w3-bar-item w3-button">def</a>
+            <a href="#del" class="w3-bar-item w3-button">del</a>
+            <a href="#func" class="w3-bar-item w3-button">func</a>
+            <a href="#import" class="w3-bar-item w3-button">import</a>
+            <a href="#ret" class="w3-bar-item w3-button">ret</a>
+        </div>
+        <div style="margin-left: 20%;">
+            <h1 class="w3-center">Core</h1>
+            <h4 class="w3-center">(import core)</h4>
+            <div class="w3-card-2 w3-margin" id="input">
+    <header class="w3-container w3-blue">
+        <h3>input</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting user input</h5>
+        Parameters :<br/>1: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="print">
+    <header class="w3-container w3-blue">
+        <h3>print</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Print value</h5>
+        Parameters :<br/>1: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="+">
+    <header class="w3-container w3-blue">
+        <h3>+</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Adding two values</h5>
+        Parameters :<br/>1: Any Type<br/>
+2: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="-">
+    <header class="w3-container w3-blue">
+        <h3>-</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Substracting two values</h5>
+        Parameters :<br/>1: Any Type<br/>
+2: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="*">
+    <header class="w3-container w3-blue">
+        <h3>*</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Multipling two values</h5>
+        Parameters :<br/>1: Any Type<br/>
+2: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="/">
+    <header class="w3-container w3-blue">
+        <h3>/</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Divising two values</h5>
+        Parameters :<br/>1: Any Type<br/>
+2: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="//">
+    <header class="w3-container w3-blue">
+        <h3>//</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting euclidienne division of two values</h5>
+        Parameters :<br/>1: Any Type<br/>
+2: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="%">
+    <header class="w3-container w3-blue">
+        <h3>%</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting modulo of two values</h5>
+        Parameters :<br/>1: Any Type<br/>
+2: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id=">">
+    <header class="w3-container w3-blue">
+        <h3>></h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if value is greater than other value</h5>
+        Parameters :<br/>1: Any Type<br/>
+2: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="<">
+    <header class="w3-container w3-blue">
+        <h3><</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if value is less than other value</h5>
+        Parameters :<br/>1: Any Type<br/>
+2: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id=">=">
+    <header class="w3-container w3-blue">
+        <h3>>=</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if value is greater or equal than other value</h5>
+        Parameters :<br/>1: Any Type<br/>
+2: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="<=">
+    <header class="w3-container w3-blue">
+        <h3><=</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if value is less or equal than other value</h5>
+        Parameters :<br/>1: Any Type<br/>
+2: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="=">
+    <header class="w3-container w3-blue">
+        <h3>=</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if value is equal than other value</h5>
+        Parameters :<br/>1: Any Type<br/>
+2: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="exit">
+    <header class="w3-container w3-blue">
+        <h3>exit</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Exit application with exit code</h5>
+        Parameters :<br/>1: Int
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="int">
+    <header class="w3-container w3-blue">
+        <h3>int</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Convert value to int</h5>
+        Parameters :<br/>1: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="float">
+    <header class="w3-container w3-blue">
+        <h3>float</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Convert value to float</h5>
+        Parameters :<br/>1: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="str">
+    <header class="w3-container w3-blue">
+        <h3>str</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Convert value to string</h5>
+        Parameters :<br/>1: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="list">
+    <header class="w3-container w3-blue">
+        <h3>list</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Create list by values</h5>
+        Parameters :<br/>1: ...
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="dict">
+    <header class="w3-container w3-blue">
+        <h3>dict</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Create dict from two list</h5>
+        Parameters :<br/>1: List<br/>
+2: List
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="not">
+    <header class="w3-container w3-blue">
+        <h3>not</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Invert value</h5>
+        Parameters :<br/>1: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="type">
+    <header class="w3-container w3-blue">
+        <h3>type</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return type of value</h5>
+        Parameters :<br/>1: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="assert">
+    <header class="w3-container w3-blue">
+        <h3>assert</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Assert if cond is true</h5>
+        Parameters :<br/>1: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="if">
+    <header class="w3-container w3-blue">
+        <h3>if</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Execute code if bool is true else other code</h5>
+        Parameters :<br/>1: Bool<br/>
+2: Code<br/>
+3: Code
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="while">
+    <header class="w3-container w3-blue">
+        <h3>while</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Execute code while bool is true</h5>
+        Parameters :<br/>1: Bool<br/>
+2: Code
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="for">
+    <header class="w3-container w3-blue">
+        <h3>for</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Execute code with a variable which get all value from a list.</h5>
+        Parameters :<br/>1: Var<br/>
+2: List<br/>
+3: Code
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="def">
+    <header class="w3-container w3-blue">
+        <h3>def</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Define a variable with a value</h5>
+        Parameters :<br/>1: Var<br/>
+2: Any Type
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="del">
+    <header class="w3-container w3-blue">
+        <h3>del</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Delete a variable</h5>
+        Parameters :<br/>1: Var
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="func">
+    <header class="w3-container w3-blue">
+        <h3>func</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Create function with arguments and body</h5>
+        Parameters :<br/>1: Args<br/>
+2: Code
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="import">
+    <header class="w3-container w3-blue">
+        <h3>import</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Import python module, lispy module or lipsy file</h5>
+        Parameters :<br/>1: Module
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="ret">
+    <header class="w3-container w3-blue">
+        <h3>ret</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return value</h5>
+        Parameters :<br/>1: Any Type
+    </div>
+</div>
+        </div>
+    </body>
+</html>

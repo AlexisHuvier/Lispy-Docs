@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>Lpg:Color</title>
+        <meta charset="UTF8"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="w3-sidebar w3-bar-block" style="width:20%">
+            <a href="#lpg:color:create" class="w3-bar-item w3-button">lpg:color:create</a>
+            <a href="#lpg:color:fromname" class="w3-bar-item w3-button">lpg:color:fromname</a>
+            <a href="#lpg:color:fromhtml" class="w3-bar-item w3-button">lpg:color:fromhtml</a>
+            <a href="#lpg:color:fromcolor" class="w3-bar-item w3-button">lpg:color:fromcolor</a>
+            <a href="#lpg:color:fromrgba" class="w3-bar-item w3-button">lpg:color:fromrgba</a>
+            <a href="#lpg:color:fromrgb" class="w3-bar-item w3-button">lpg:color:fromrgb</a>
+            <a href="#lpg:color:gethtml" class="w3-bar-item w3-button">lpg:color:gethtml</a>
+            <a href="#lpg:color:getrgba" class="w3-bar-item w3-button">lpg:color:getrgba</a>
+            <a href="#lpg:color:getrgb" class="w3-bar-item w3-button">lpg:color:getrgb</a>
+            <a href="#lpg:color:lighter" class="w3-bar-item w3-button">lpg:color:lighter</a>
+            <a href="#lpg:color:darker" class="w3-bar-item w3-button">lpg:color:darker</a>
+        </div>
+        <div style="margin-left: 20%;">
+            <h1 class="w3-center">Lpg:Color</h1>
+            <h4 class="w3-center"></h4>
+            <div class="w3-card-2 w3-margin" id="lpg:color:create">
+    <header class="w3-container w3-blue">
+        <h3>lpg:color:create</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Creating basic Color</h5>
+        Parameters :<br/>No parameters.
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:color:fromname">
+    <header class="w3-container w3-blue">
+        <h3>lpg:color:fromname</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Creating Color from name</h5>
+        Parameters :<br/>1: Str
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:color:fromhtml">
+    <header class="w3-container w3-blue">
+        <h3>lpg:color:fromhtml</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Creating Color from html</h5>
+        Parameters :<br/>1: Str
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:color:fromcolor">
+    <header class="w3-container w3-blue">
+        <h3>lpg:color:fromcolor</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Creating Color from other Color</h5>
+        Parameters :<br/>1: Color
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:color:fromrgba">
+    <header class="w3-container w3-blue">
+        <h3>lpg:color:fromrgba</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Creating Color from RGBA</h5>
+        Parameters :<br/>1: Int, Float<br/>
+2: Int, Float<br/>
+3: Int, Float<br/>
+4: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:color:fromrgb">
+    <header class="w3-container w3-blue">
+        <h3>lpg:color:fromrgb</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Creating Color from RGB</h5>
+        Parameters :<br/>1: Int, Float<br/>
+2: Int, Float<br/>
+3: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:color:gethtml">
+    <header class="w3-container w3-blue">
+        <h3>lpg:color:gethtml</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting HTML from Color</h5>
+        Parameters :<br/>1: Color
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:color:getrgba">
+    <header class="w3-container w3-blue">
+        <h3>lpg:color:getrgba</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting RGBA from Color</h5>
+        Parameters :<br/>1: Color
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:color:getrgb">
+    <header class="w3-container w3-blue">
+        <h3>lpg:color:getrgb</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting RGB from Color</h5>
+        Parameters :<br/>1: Color
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:color:lighter">
+    <header class="w3-container w3-blue">
+        <h3>lpg:color:lighter</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting lighter Color with force of lighting</h5>
+        Parameters :<br/>1: Int, Float
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:color:darker">
+    <header class="w3-container w3-blue">
+        <h3>lpg:color:darker</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting darker Color with force of darking</h5>
+        Parameters :<br/>1: Int, Float
+    </div>
+</div>
+        </div>
+    </body>
+</html>

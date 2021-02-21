@@ -1,0 +1,216 @@
+<html>
+    <head>
+        <title>Lpg:Font</title>
+        <meta charset="UTF8"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="w3-sidebar w3-bar-block" style="width:20%">
+            <a href="#lpg:font:create" class="w3-bar-item w3-button">lpg:font:create</a>
+            <a href="#lpg:font:rendersize" class="w3-bar-item w3-button">lpg:font:rendersize</a>
+            <a href="#lpg:font:name" class="w3-bar-item w3-button">lpg:font:name</a>
+            <a href="#lpg:font:setname" class="w3-bar-item w3-button">lpg:font:setname</a>
+            <a href="#lpg:font:size" class="w3-bar-item w3-button">lpg:font:size</a>
+            <a href="#lpg:font:setsize" class="w3-bar-item w3-button">lpg:font:setsize</a>
+            <a href="#lpg:font:bold" class="w3-bar-item w3-button">lpg:font:bold</a>
+            <a href="#lpg:font:setbold" class="w3-bar-item w3-button">lpg:font:setbold</a>
+            <a href="#lpg:font:italic" class="w3-bar-item w3-button">lpg:font:italic</a>
+            <a href="#lpg:font:setitalic" class="w3-bar-item w3-button">lpg:font:setitalic</a>
+            <a href="#lpg:font:underline" class="w3-bar-item w3-button">lpg:font:underline</a>
+            <a href="#lpg:font:setunderline" class="w3-bar-item w3-button">lpg:font:setunderline</a>
+            <a href="#lpg:font:antialias" class="w3-bar-item w3-button">lpg:font:antialias</a>
+            <a href="#lpg:font:setantialias" class="w3-bar-item w3-button">lpg:font:setantialias</a>
+            <a href="#lpg:font:color" class="w3-bar-item w3-button">lpg:font:color</a>
+            <a href="#lpg:font:setcolor" class="w3-bar-item w3-button">lpg:font:setcolor</a>
+            <a href="#lpg:font:background" class="w3-bar-item w3-button">lpg:font:background</a>
+            <a href="#lpg:font:setbackground" class="w3-bar-item w3-button">lpg:font:setbackground</a>
+        </div>
+        <div style="margin-left: 20%;">
+            <h1 class="w3-center">Lpg:Font</h1>
+            <h4 class="w3-center"></h4>
+            <div class="w3-card-2 w3-margin" id="lpg:font:create">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:create</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Create Font by name, size, bold, italic, underline, color, background and antialias</h5>
+        Parameters :<br/>1: Str<br/>
+2: Int<br/>
+3: Bool<br/>
+4: Bool<br/>
+5: Bool<br/>
+6: Color<br/>
+7: Color, Nonetype<br/>
+8: Bool
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:rendersize">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:rendersize</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting rendersize of text by Font</h5>
+        Parameters :<br/>1: Font<br/>
+2: Str
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:name">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:name</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting name from Font</h5>
+        Parameters :<br/>1: Font
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:setname">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:setname</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting name to Font</h5>
+        Parameters :<br/>1: Font<br/>
+2: Str
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:size">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:size</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting size from Font</h5>
+        Parameters :<br/>1: Font
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:setsize">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:setsize</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting size to Font</h5>
+        Parameters :<br/>1: Font<br/>
+2: Int
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:bold">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:bold</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if font is bold</h5>
+        Parameters :<br/>1: Font
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:setbold">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:setbold</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting if font is bold</h5>
+        Parameters :<br/>1: Font<br/>
+2: Bool
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:italic">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:italic</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if font is italic</h5>
+        Parameters :<br/>1: Font
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:setitalic">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:setitalic</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting if font is italic</h5>
+        Parameters :<br/>1: Font<br/>
+2: Bool
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:underline">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:underline</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if font is underline</h5>
+        Parameters :<br/>1: Font
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:setunderline">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:setunderline</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting if font is underline</h5>
+        Parameters :<br/>1: Font<br/>
+2: Bool
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:antialias">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:antialias</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if font has antialiasing</h5>
+        Parameters :<br/>1: Font
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:setantialias">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:setantialias</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting if font has antialiasing</h5>
+        Parameters :<br/>1: Font<br/>
+2: Bool
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:color">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:color</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting Color from Font</h5>
+        Parameters :<br/>1: Font
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:setcolor">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:setcolor</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting Color to Font</h5>
+        Parameters :<br/>1: Font<br/>
+2: Color
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:background">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:background</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting background from Font</h5>
+        Parameters :<br/>1: Font
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpg:font:setbackground">
+    <header class="w3-container w3-blue">
+        <h3>lpg:font:setbackground</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting background to Font</h5>
+        Parameters :<br/>1: Font<br/>
+2: Color, Nonetype
+    </div>
+</div>
+        </div>
+    </body>
+</html>
