@@ -46,7 +46,7 @@ def generate_docs(f, to, core, retour):
                     i.module = "core"
             if len(lispyfunctions) > 0:
                 with open("docs/"+to+"/"+lispyfunctions[0].module.replace(":", "_")+".html", "w") as fhtml:
-                    fhtml.write(module.parse(lispyfunctions, core, retour, True, (constantes[lispyfunctions[0].module] if lispyfunctions[0].module in constantes.keys() else {})))
+                    fhtml.write(module.parse(lispyfunctions, core, retour, False if "standard" in f else True, (constantes[lispyfunctions[0].module] if lispyfunctions[0].module in constantes.keys() else {})))
                 print("DOC GENERATED : "+"docs/"+to+"/"+lispyfunctions[0].module.replace(":", "_")+".html")
                 return to+"/"+lispyfunctions[0].module.replace(":", "_")+".html"
             else:
