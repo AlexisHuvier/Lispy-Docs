@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>File</title>
+        <title>Path</title>
         <meta charset="UTF8"/>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <style>
@@ -12,24 +12,25 @@
     <body>
         <div class="w3-sidebar w3-bar-block" style="width:20%">
             <a href="../index.html" class="w3-button w3-border w3-cyan w3-margin" style="width:100%">Back</a>
-            <a href="#file:read" class="w3-bar-item w3-button w3-margin">file:read</a>
-            <a href="#file:readlines" class="w3-bar-item w3-button w3-margin">file:readlines</a>
-            <a href="#file:write" class="w3-bar-item w3-button w3-margin">file:write</a>
-            <a href="#file:append" class="w3-bar-item w3-button w3-margin">file:append</a>
-            <a href="#file:exists" class="w3-bar-item w3-button w3-margin">file:exists</a>
-            <a href="#file:isdir" class="w3-bar-item w3-button w3-margin">file:isdir</a>
-            <a href="#file:isfile" class="w3-bar-item w3-button w3-margin">file:isfile</a>
-            <a href="#file:remove" class="w3-bar-item w3-button w3-margin">file:remove</a>
-            <a href="#file:touch" class="w3-bar-item w3-button w3-margin">file:touch</a>
-            <a href="#file:rename" class="w3-bar-item w3-button w3-margin">file:rename</a>
-            <a href="#file:listdir" class="w3-bar-item w3-button w3-margin">file:listdir</a>
+            <a href="#path:read" class="w3-bar-item w3-button w3-margin">path:read</a>
+            <a href="#path:readlines" class="w3-bar-item w3-button w3-margin">path:readlines</a>
+            <a href="#path:write" class="w3-bar-item w3-button w3-margin">path:write</a>
+            <a href="#path:append" class="w3-bar-item w3-button w3-margin">path:append</a>
+            <a href="#path:exists" class="w3-bar-item w3-button w3-margin">path:exists</a>
+            <a href="#path:isdir" class="w3-bar-item w3-button w3-margin">path:isdir</a>
+            <a href="#path:isfile" class="w3-bar-item w3-button w3-margin">path:isfile</a>
+            <a href="#path:remove" class="w3-bar-item w3-button w3-margin">path:remove</a>
+            <a href="#path:touch" class="w3-bar-item w3-button w3-margin">path:touch</a>
+            <a href="#path:rename" class="w3-bar-item w3-button w3-margin">path:rename</a>
+            <a href="#path:listdir" class="w3-bar-item w3-button w3-margin">path:listdir</a>
+            <a href="#path:makedirs" class="w3-bar-item w3-button w3-margin">path:makedirs</a>
         </div>
         <div style="margin-left: 20%;">
-            <h1 class="w3-center">File</h1>
-            <h4 class="w3-center">(import file)</h4>
-            <div class="w3-card-2 w3-margin" id="file:read">
+            <h1 class="w3-center">Path</h1>
+            <h4 class="w3-center">(import path)</h4>
+            <div class="w3-card-2 w3-margin" id="path:read">
     <header class="w3-container w3-blue">
-        <h3>file:read</h3>
+        <h3>path:read</h3>
     </header>
     <div class="w3-container w3-light-blue">
         <h5>Return content of file</h5>
@@ -38,9 +39,9 @@
         </div>
     </div>
 </div>
-            <div class="w3-card-2 w3-margin" id="file:readlines">
+            <div class="w3-card-2 w3-margin" id="path:readlines">
     <header class="w3-container w3-blue">
-        <h3>file:readlines</h3>
+        <h3>path:readlines</h3>
     </header>
     <div class="w3-container w3-light-blue">
         <h5>Return lines of file</h5>
@@ -49,9 +50,9 @@
         </div>
     </div>
 </div>
-            <div class="w3-card-2 w3-margin" id="file:write">
+            <div class="w3-card-2 w3-margin" id="path:write">
     <header class="w3-container w3-blue">
-        <h3>file:write</h3>
+        <h3>path:write</h3>
     </header>
     <div class="w3-container w3-light-blue">
         <h5>Write content to file</h5>
@@ -61,9 +62,9 @@
         </div>
     </div>
 </div>
-            <div class="w3-card-2 w3-margin" id="file:append">
+            <div class="w3-card-2 w3-margin" id="path:append">
     <header class="w3-container w3-blue">
-        <h3>file:append</h3>
+        <h3>path:append</h3>
     </header>
     <div class="w3-container w3-light-blue">
         <h5>Append content to file</h5>
@@ -73,9 +74,9 @@
         </div>
     </div>
 </div>
-            <div class="w3-card-2 w3-margin" id="file:exists">
+            <div class="w3-card-2 w3-margin" id="path:exists">
     <header class="w3-container w3-blue">
-        <h3>file:exists</h3>
+        <h3>path:exists</h3>
     </header>
     <div class="w3-container w3-light-blue">
         <h5>Return if path exists</h5>
@@ -84,9 +85,9 @@
         </div>
     </div>
 </div>
-            <div class="w3-card-2 w3-margin" id="file:isdir">
+            <div class="w3-card-2 w3-margin" id="path:isdir">
     <header class="w3-container w3-blue">
-        <h3>file:isdir</h3>
+        <h3>path:isdir</h3>
     </header>
     <div class="w3-container w3-light-blue">
         <h5>Return if path is directory</h5>
@@ -95,9 +96,9 @@
         </div>
     </div>
 </div>
-            <div class="w3-card-2 w3-margin" id="file:isfile">
+            <div class="w3-card-2 w3-margin" id="path:isfile">
     <header class="w3-container w3-blue">
-        <h3>file:isfile</h3>
+        <h3>path:isfile</h3>
     </header>
     <div class="w3-container w3-light-blue">
         <h5>Return if path is file</h5>
@@ -106,9 +107,9 @@
         </div>
     </div>
 </div>
-            <div class="w3-card-2 w3-margin" id="file:remove">
+            <div class="w3-card-2 w3-margin" id="path:remove">
     <header class="w3-container w3-blue">
-        <h3>file:remove</h3>
+        <h3>path:remove</h3>
     </header>
     <div class="w3-container w3-light-blue">
         <h5>Remove path</h5>
@@ -117,9 +118,9 @@
         </div>
     </div>
 </div>
-            <div class="w3-card-2 w3-margin" id="file:touch">
+            <div class="w3-card-2 w3-margin" id="path:touch">
     <header class="w3-container w3-blue">
-        <h3>file:touch</h3>
+        <h3>path:touch</h3>
     </header>
     <div class="w3-container w3-light-blue">
         <h5>Create empty file</h5>
@@ -128,9 +129,9 @@
         </div>
     </div>
 </div>
-            <div class="w3-card-2 w3-margin" id="file:rename">
+            <div class="w3-card-2 w3-margin" id="path:rename">
     <header class="w3-container w3-blue">
-        <h3>file:rename</h3>
+        <h3>path:rename</h3>
     </header>
     <div class="w3-container w3-light-blue">
         <h5>Rename file</h5>
@@ -140,12 +141,23 @@
         </div>
     </div>
 </div>
-            <div class="w3-card-2 w3-margin" id="file:listdir">
+            <div class="w3-card-2 w3-margin" id="path:listdir">
     <header class="w3-container w3-blue">
-        <h3>file:listdir</h3>
+        <h3>path:listdir</h3>
     </header>
     <div class="w3-container w3-light-blue">
         <h5>List files from directory</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Str
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="path:makedirs">
+    <header class="w3-container w3-blue">
+        <h3>path:makedirs</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Create directory</h5>
         <div class="w3-margin">
             Parameters :<br/>1: Str
         </div>
