@@ -17,7 +17,8 @@ eval_functions = [
 ]
 
 find_functions = {
-    "lpygame": "libraries_src/lpygame_src/lispy_functions/**/*"
+    "lpygame": "libraries_src/lpygame_src/lispy_functions/**/*",
+    "lpycord": "libraries_src/lpycord_src/lispy_functions/*"
 }
 
 constantes = {

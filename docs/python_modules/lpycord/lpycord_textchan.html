@@ -1,0 +1,231 @@
+<html>
+    <head>
+        <title>Textchan</title>
+        <meta charset="UTF8"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="w3-sidebar w3-bar-block" style="width:20%">
+            <a href="index.html" class="w3-button w3-border w3-cyan w3-margin" style="width:100%">Back</a>
+            <a href="#lpycord:textchan:id" class="w3-bar-item w3-button w3-margin">lpycord:textchan:id</a>
+            <a href="#lpycord:textchan:category" class="w3-bar-item w3-button w3-margin">lpycord:textchan:category</a>
+            <a href="#lpycord:textchan:name" class="w3-bar-item w3-button w3-margin">lpycord:textchan:name</a>
+            <a href="#lpycord:textchan:topic" class="w3-bar-item w3-button w3-margin">lpycord:textchan:topic</a>
+            <a href="#lpycord:textchan:history" class="w3-bar-item w3-button w3-margin">lpycord:textchan:history</a>
+            <a href="#lpycord:textchan:members" class="w3-bar-item w3-button w3-margin">lpycord:textchan:members</a>
+            <a href="#lpycord:textchan:isnsfw" class="w3-bar-item w3-button w3-margin">lpycord:textchan:isnsfw</a>
+            <a href="#lpycord:textchan:isnews" class="w3-bar-item w3-button w3-margin">lpycord:textchan:isnews</a>
+            <a href="#lpycord:textchan:clone" class="w3-bar-item w3-button w3-margin">lpycord:textchan:clone</a>
+            <a href="#lpycord:textchan:purge" class="w3-bar-item w3-button w3-margin">lpycord:textchan:purge</a>
+            <a href="#lpycord:textchan:creation" class="w3-bar-item w3-button w3-margin">lpycord:textchan:creation</a>
+            <a href="#lpycord:textchan:delete" class="w3-bar-item w3-button w3-margin">lpycord:textchan:delete</a>
+            <a href="#lpycord:textchan:mention" class="w3-bar-item w3-button w3-margin">lpycord:textchan:mention</a>
+            <a href="#lpycord:textchan:pins" class="w3-bar-item w3-button w3-margin">lpycord:textchan:pins</a>
+            <a href="#lpycord:textchan:send" class="w3-bar-item w3-button w3-margin">lpycord:textchan:send</a>
+            <a href="#lpycord:textchan:sendembed" class="w3-bar-item w3-button w3-margin">lpycord:textchan:sendembed</a>
+            <a href="#lpycord:textchan:sendfile" class="w3-bar-item w3-button w3-margin">lpycord:textchan:sendfile</a>
+        </div>
+        <div style="margin-left: 20%;">
+            <h1 class="w3-center">Textchan</h1>
+            <h4 class="w3-center"></h4>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:id">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:id</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting channel id</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:category">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:category</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting channel category</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:name">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:name</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting channel name</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:topic">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:topic</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting channel topic (None if it doesn't exist)</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:history">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:history</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting x messages from history of channel</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel<br/>
+2: Int
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:members">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:members</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting members that can see channel</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:isnsfw">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:isnsfw</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if channel is NSFW</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:isnews">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:isnews</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if channel is news</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:clone">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:clone</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Clone a channel</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:purge">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:purge</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Delete x message from channel</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel<br/>
+2: Int
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:creation">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:creation</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting creation time of channel</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:delete">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:delete</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Deleting a channel</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:mention">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:mention</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting string mention of channel</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:pins">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:pins</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting pinned messages</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:send">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:send</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Sending content</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel<br/>
+2: Str
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:sendembed">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:sendembed</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Sending content</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel<br/>
+2: Embed
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:textchan:sendfile">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:textchan:sendfile</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Sending content</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Textchannel<br/>
+2: Str
+        </div>
+    </div>
+</div>
+            
+        </div>
+    </body>
+</html>
