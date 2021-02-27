@@ -1,8 +1,12 @@
 def get_name(i):
     if i.split("/")[-1] != "index.html":
-        return i.split("/")[-1].replace(".html", "").title()
+        name = i.split("/")[-1].replace(".html", "").replace("_", " ").title()
     else:
-        return i.split("/")[-2].title()
+        name = i.split("/")[-2].replace("_", " ").title()
+    if len(name.split(" ")) > 1:
+        return " ".join(name.split(" ")[1:])
+    else:
+        return name
 
 def parse(name, modules, retour="", module_method = ""):
     with open("templates/index.html", "r") as f:
