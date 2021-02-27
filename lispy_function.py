@@ -1,4 +1,4 @@
-def lispy_function(name="", arguments=[], explaination=""):
+def lispy_function(name="", arguments=[], explaination="", must_async=False):
     return name, arguments, explaination
 
 class LispyFunction:
