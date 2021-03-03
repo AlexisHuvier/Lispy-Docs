@@ -13,6 +13,16 @@
         <div class="w3-sidebar w3-bar-block" style="width:20%">
             <a href="index.html" class="w3-button w3-border w3-cyan w3-margin" style="width:100%">Back</a>
             <a href="#lpycord:bot:create" class="w3-bar-item w3-button w3-margin">lpycord:bot:create</a>
+            <a href="#lpycord:bot:latency" class="w3-bar-item w3-button w3-margin">lpycord:bot:latency</a>
+            <a href="#lpycord:bot:user" class="w3-bar-item w3-button w3-margin">lpycord:bot:user</a>
+            <a href="#lpycord:bot:guilds" class="w3-bar-item w3-button w3-margin">lpycord:bot:guilds</a>
+            <a href="#lpycord:bot:isready" class="w3-bar-item w3-button w3-margin">lpycord:bot:isready</a>
+            <a href="#lpycord:bot:close" class="w3-bar-item w3-button w3-margin">lpycord:bot:close</a>
+            <a href="#lpycord:bot:getchannel" class="w3-bar-item w3-button w3-margin">lpycord:bot:getchannel</a>
+            <a href="#lpycord:bot:getguild" class="w3-bar-item w3-button w3-margin">lpycord:bot:getguild</a>
+            <a href="#lpycord:bot:getuser" class="w3-bar-item w3-button w3-margin">lpycord:bot:getuser</a>
+            <a href="#lpycord:bot:getemoji" class="w3-bar-item w3-button w3-margin">lpycord:bot:getemoji</a>
+            <a href="#lpycord:bot:users" class="w3-bar-item w3-button w3-margin">lpycord:bot:users</a>
             <a href="#lpycord:bot:addcommand" class="w3-bar-item w3-button w3-margin">lpycord:bot:addcommand</a>
             <a href="#lpycord:bot:removecommand" class="w3-bar-item w3-button w3-margin">lpycord:bot:removecommand</a>
             <a href="#lpycord:bot:commands" class="w3-bar-item w3-button w3-margin">lpycord:bot:commands</a>
@@ -31,6 +41,120 @@
         <h5>Creating a bot with prefix</h5>
         <div class="w3-margin">
             Parameters :<br/>1: Str
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:latency">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:latency</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Measuring latency between a HEARTBEAT and a HEARTBEAT_ACK in seconds</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:user">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:user</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting user of bot (if connected or None)</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:guilds">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:guilds</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting guilds of Bot</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:isready">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:isready</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Returning if bot's cache is ready</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:close">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:close</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Closing Bot</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:getchannel">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:getchannel</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting a channel by id</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot<br/>
+2: Int
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:getguild">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:getguild</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting a guild by id</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot<br/>
+2: Int
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:getuser">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:getuser</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting a user by id</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot<br/>
+2: Int
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:getemoji">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:getemoji</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting a emoji by id</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot<br/>
+2: Int
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:users">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:users</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting users of Bot</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot
         </div>
     </div>
 </div>
