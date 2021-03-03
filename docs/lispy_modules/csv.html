@@ -1,0 +1,259 @@
+<html>
+    <head>
+        <title>Csv</title>
+        <meta charset="UTF8"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="w3-sidebar w3-bar-block" style="width:20%">
+            <a href="../index.html" class="w3-button w3-border w3-cyan w3-margin" style="width:100%">Back</a>
+            <a href="#csv:read" class="w3-bar-item w3-button w3-margin">csv:read</a>
+            <a href="#csv:write" class="w3-bar-item w3-button w3-margin">csv:write</a>
+            <a href="#csv:regdialect" class="w3-bar-item w3-button w3-margin">csv:regdialect</a>
+            <a href="#csv:unregdialect" class="w3-bar-item w3-button w3-margin">csv:unregdialect</a>
+            <a href="#csv:getdialect" class="w3-bar-item w3-button w3-margin">csv:getdialect</a>
+            <a href="#csv:finddialect" class="w3-bar-item w3-button w3-margin">csv:finddialect</a>
+            <a href="#csv:hasheader" class="w3-bar-item w3-button w3-margin">csv:hasheader</a>
+            <a href="#csv:dialect:create" class="w3-bar-item w3-button w3-margin">csv:dialect:create</a>
+            <a href="#csv:dialect:str" class="w3-bar-item w3-button w3-margin">csv:dialect:str</a>
+            <a href="#csv:dialect:delimiter" class="w3-bar-item w3-button w3-margin">csv:dialect:delimiter</a>
+            <a href="#csv:dialect:setdelimiter" class="w3-bar-item w3-button w3-margin">csv:dialect:setdelimiter</a>
+            <a href="#csv:dialect:quotechar" class="w3-bar-item w3-button w3-margin">csv:dialect:quotechar</a>
+            <a href="#csv:dialect:setquotechar" class="w3-bar-item w3-button w3-margin">csv:dialect:setquotechar</a>
+            <a href="#csv:dialect:escapechar" class="w3-bar-item w3-button w3-margin">csv:dialect:escapechar</a>
+            <a href="#csv:dialect:setescapechar" class="w3-bar-item w3-button w3-margin">csv:dialect:setescapechar</a>
+            <a href="#csv:dialect:doublequote" class="w3-bar-item w3-button w3-margin">csv:dialect:doublequote</a>
+            <a href="#csv:dialect:setdoublequote" class="w3-bar-item w3-button w3-margin">csv:dialect:setdoublequote</a>
+            <a href="#csv:dialect:skipinitialspace" class="w3-bar-item w3-button w3-margin">csv:dialect:skipinitialspace</a>
+            <a href="#csv:dialect:setskipinitialspace" class="w3-bar-item w3-button w3-margin">csv:dialect:setskipinitialspace</a>
+        </div>
+        <div style="margin-left: 20%;">
+            <h1 class="w3-center">Csv</h1>
+            <h4 class="w3-center">(import csv)</h4>
+            <div class="w3-card-2 w3-margin" id="csv:read">
+    <header class="w3-container w3-blue">
+        <h3>csv:read</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Reading a CSV file with a dialect</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Str<br/>
+2: Any Type
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:write">
+    <header class="w3-container w3-blue">
+        <h3>csv:write</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Writing a list in a CSV file with a dialect</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Str<br/>
+2: Any Type<br/>
+3: List
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:regdialect">
+    <header class="w3-container w3-blue">
+        <h3>csv:regdialect</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Registering a Dialect with a name</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Str<br/>
+2: Any Type
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:unregdialect">
+    <header class="w3-container w3-blue">
+        <h3>csv:unregdialect</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Unregistering a Dialect by it name</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Str
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:getdialect">
+    <header class="w3-container w3-blue">
+        <h3>csv:getdialect</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting a Dialect by it name</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Str
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:finddialect">
+    <header class="w3-container w3-blue">
+        <h3>csv:finddialect</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return Dialect used in CSV File</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Str
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:hasheader">
+    <header class="w3-container w3-blue">
+        <h3>csv:hasheader</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if the first line of a CSV File is a header</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Str
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:dialect:create">
+    <header class="w3-container w3-blue">
+        <h3>csv:dialect:create</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Creating a Dialect</h5>
+        <div class="w3-margin">
+            Parameters :<br/>No parameters.
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:dialect:str">
+    <header class="w3-container w3-blue">
+        <h3>csv:dialect:str</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting dialect informations</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Any Type
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:dialect:delimiter">
+    <header class="w3-container w3-blue">
+        <h3>csv:dialect:delimiter</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting dialect delimiter</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Any Type
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:dialect:setdelimiter">
+    <header class="w3-container w3-blue">
+        <h3>csv:dialect:setdelimiter</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting dialect delimiter</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Any Type<br/>
+2: Str
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:dialect:quotechar">
+    <header class="w3-container w3-blue">
+        <h3>csv:dialect:quotechar</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting dialect quotechar</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Any Type
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:dialect:setquotechar">
+    <header class="w3-container w3-blue">
+        <h3>csv:dialect:setquotechar</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting dialect quotechar</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Any Type<br/>
+2: Str
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:dialect:escapechar">
+    <header class="w3-container w3-blue">
+        <h3>csv:dialect:escapechar</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting dialect escapechar</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Any Type
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:dialect:setescapechar">
+    <header class="w3-container w3-blue">
+        <h3>csv:dialect:setescapechar</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting dialect escapechar</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Any Type<br/>
+2: Str
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:dialect:doublequote">
+    <header class="w3-container w3-blue">
+        <h3>csv:dialect:doublequote</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting dialect doublequote</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Any Type
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:dialect:setdoublequote">
+    <header class="w3-container w3-blue">
+        <h3>csv:dialect:setdoublequote</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting dialect doublequote</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Any Type<br/>
+2: Bool
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:dialect:skipinitialspace">
+    <header class="w3-container w3-blue">
+        <h3>csv:dialect:skipinitialspace</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting dialect skipinitialspace</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Any Type
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="csv:dialect:setskipinitialspace">
+    <header class="w3-container w3-blue">
+        <h3>csv:dialect:setskipinitialspace</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting dialect skipinitialspace</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Any Type<br/>
+2: Bool
+        </div>
+    </div>
+</div>
+            
+        </div>
+    </body>
+</html>
