@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <title>User</title>
+        <meta charset="UTF8"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="w3-sidebar w3-bar-block" style="width:20%">
+            <a href="index.html" class="w3-button w3-border w3-cyan w3-margin" style="width:100%">Back</a>
+            <a href="#lpycord:user:name" class="w3-bar-item w3-button w3-margin">lpycord:user:name</a>
+            <a href="#lpycord:user:id" class="w3-bar-item w3-button w3-margin">lpycord:user:id</a>
+            <a href="#lpycord:user:discriminator" class="w3-bar-item w3-button w3-margin">lpycord:user:discriminator</a>
+            <a href="#lpycord:user:avatar" class="w3-bar-item w3-button w3-margin">lpycord:user:avatar</a>
+            <a href="#lpycord:user:bot" class="w3-bar-item w3-button w3-margin">lpycord:user:bot</a>
+            <a href="#lpycord:user:system" class="w3-bar-item w3-button w3-margin">lpycord:user:system</a>
+            <a href="#lpycord:user:creating" class="w3-bar-item w3-button w3-margin">lpycord:user:creating</a>
+            <a href="#lpycord:user:mention" class="w3-bar-item w3-button w3-margin">lpycord:user:mention</a>
+            <a href="#lpycord:user:mentionin" class="w3-bar-item w3-button w3-margin">lpycord:user:mentionin</a>
+            <a href="#lpycord:user:send" class="w3-bar-item w3-button w3-margin">lpycord:user:send</a>
+            <a href="#lpycord:user:sendembed" class="w3-bar-item w3-button w3-margin">lpycord:user:sendembed</a>
+            <a href="#lpycord:user:sendfile" class="w3-bar-item w3-button w3-margin">lpycord:user:sendfile</a>
+        </div>
+        <div style="margin-left: 20%;">
+            <h1 class="w3-center">User</h1>
+            <h4 class="w3-center"></h4>
+            <div class="w3-card-2 w3-margin" id="lpycord:user:name">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:user:name</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting user's username</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: User, Clientuser
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:user:id">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:user:id</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting user's id</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: User, Clientuser
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:user:discriminator">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:user:discriminator</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting user's discriminator</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: User, Clientuser
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:user:avatar">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:user:avatar</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting user's avatar</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: User, Clientuser
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:user:bot">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:user:bot</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Returning if user is a bot</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: User, Clientuser
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:user:system">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:user:system</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Returning if user is system</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: User, Clientuser
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:user:creating">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:user:creating</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting user's creation date</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: User, Clientuser
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:user:mention">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:user:mention</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Getting user's mention</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: User, Clientuser
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:user:mentionin">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:user:mentionin</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Return if user is mentioned in message</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: User, Clientuser<br/>
+2: Message
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:user:send">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:user:send</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Sending content</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: User, Clientuser<br/>
+2: Str
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:user:sendembed">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:user:sendembed</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Sending content</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: User, Clientuser<br/>
+2: Embed
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:user:sendfile">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:user:sendfile</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Sending content</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: User, Clientuser<br/>
+2: Str
+        </div>
+    </div>
+</div>
+            
+        </div>
+    </body>
+</html>
