@@ -29,6 +29,14 @@
             <a href="#lpycord:bot:prefix" class="w3-bar-item w3-button w3-margin">lpycord:bot:prefix</a>
             <a href="#lpycord:bot:setprefix" class="w3-bar-item w3-button w3-margin">lpycord:bot:setprefix</a>
             <a href="#lpycord:bot:run" class="w3-bar-item w3-button w3-margin">lpycord:bot:run</a>
+            <a href="#lpycord:bot:setready" class="w3-bar-item w3-button w3-margin">lpycord:bot:setready</a>
+            <a href="#lpycord:bot:setmessage" class="w3-bar-item w3-button w3-margin">lpycord:bot:setmessage</a>
+            <a href="#lpycord:bot:setmessagedelete" class="w3-bar-item w3-button w3-margin">lpycord:bot:setmessagedelete</a>
+            <a href="#lpycord:bot:setmessageedit" class="w3-bar-item w3-button w3-margin">lpycord:bot:setmessageedit</a>
+            <a href="#lpycord:bot:setreactionadd" class="w3-bar-item w3-button w3-margin">lpycord:bot:setreactionadd</a>
+            <a href="#lpycord:bot:setreactionremove" class="w3-bar-item w3-button w3-margin">lpycord:bot:setreactionremove</a>
+            <a href="#lpycord:bot:setmemberjoin" class="w3-bar-item w3-button w3-margin">lpycord:bot:setmemberjoin</a>
+            <a href="#lpycord:bot:setmemberremove" class="w3-bar-item w3-button w3-margin">lpycord:bot:setmemberremove</a>
         </div>
         <div style="margin-left: 20%;">
             <h1 class="w3-center">Bot</h1>
@@ -225,6 +233,102 @@
         <div class="w3-margin">
             Parameters :<br/>1: Bot<br/>
 2: Str
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:setready">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:setready</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting Function called when bot is ready (or None)</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot<br/>
+2: Procedure, Nonetype
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:setmessage">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:setmessage</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting Function called when bot recieve a message (or None)</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot<br/>
+2: Procedure, Nonetype
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:setmessagedelete">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:setmessagedelete</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting Function called when a message is deleted (or None)</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot<br/>
+2: Procedure, Nonetype
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:setmessageedit">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:setmessageedit</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting Function called when a message is edited (or None)</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot<br/>
+2: Procedure, Nonetype
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:setreactionadd">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:setreactionadd</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting Function called when a reaction is added (or None)</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot<br/>
+2: Procedure, Nonetype
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:setreactionremove">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:setreactionremove</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting Function called when a reaction is removed (or None)</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot<br/>
+2: Procedure, Nonetype
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:setmemberjoin">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:setmemberjoin</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting Function called when a member join a guild (or None)</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot<br/>
+2: Procedure, Nonetype
+        </div>
+    </div>
+</div>
+            <div class="w3-card-2 w3-margin" id="lpycord:bot:setmemberremove">
+    <header class="w3-container w3-blue">
+        <h3>lpycord:bot:setmemberremove</h3>
+    </header>
+    <div class="w3-container w3-light-blue">
+        <h5>Setting Function called when a member leave a guild (or None)</h5>
+        <div class="w3-margin">
+            Parameters :<br/>1: Bot<br/>
+2: Procedure, Nonetype
         </div>
     </div>
 </div>
