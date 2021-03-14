@@ -13,7 +13,8 @@ eval_functions = [
     '@lispy_function("del", ["var"], "Delete a variable")',
     '@lispy_function("func", ["args", "code"], "Create function with arguments and body")',
     '@lispy_function("import", ["module"], "Import python module, lispy module or lipsy file")',
-    '@lispy_function("ret", [""], "Return value")'
+    '@lispy_function("ret", [""], "Return value")',
+    '@lispy_function("#", ["..."], "Make a Comment")'
 ]
 
 find_functions = {
