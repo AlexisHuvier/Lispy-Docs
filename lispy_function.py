@@ -8,11 +8,20 @@ class LispyFunction:
         if len(params):
             for i in range(len(params)):
                 if params[i] == "":
-                    params[i] = f"{i+1}: Any Type"
+                    if len(params) > 1:
+                        params[i] = f"{i+1}: Any Type"
+                    else:
+                        params = ["Any Type"]
+                elif params[i] == "...":
+                    params = ["Unlimited Number and Type"]
+                    break
                 else:
-                    params[i] = f"{i+1}: " + ", ".join([i.capitalize() for i in params[i].split("|")])
+                    if len(params) > 1:
+                        params[i] = f"{i+1}: " + ", ".join([i.capitalize() for i in params[i].split("|")])
+                    else:
+                        params = [", ".join([i.capitalize() for i in params[i].split("|")])]
         else:
-            params = ["No parameters."]
+            params = ["No parameters"]
         self.explaination = explaination
         self.params = params
 
